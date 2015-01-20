@@ -6,7 +6,8 @@
     ls = ls-files
     sb = show-branch
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-    ci = commit
+    tree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+    cm = commit
     br = branch
     hist = log --pretty=format:'%Cred%h%Creset %ad | %s%d [%an]' --graph --date=short
     type = cat-file -t
