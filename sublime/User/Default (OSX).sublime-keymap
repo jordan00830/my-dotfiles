@@ -1,0 +1,6 @@
+[
+    { "keys": ["option+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["option+up"], "command": "select_lines", "args": {"forward": false} },
+    {"keys": ["alt+command+l"], "command": "reindent", "args": {"single_line": false}},
+    {"keys": ["shift+command+a"], "command": "align_tab", "args": {"live_preview": true}}
+]

@@ -1,0 +1,12 @@
+{
+    // user defined templates to load
+    "registerTemplates" : [ "myTemplate"],
+
+    // the template used to generate code
+    "template" : "myTemplate",
+
+    // if docblock says variable id any of the following do not add type hinting to functions
+    "type_hint_ignore" :  ["mixed", "int","integer", "double", "float", "number", "string", "boolean", "bool", "numeric", "unknown"],
+
+}
+

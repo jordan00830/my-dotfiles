@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"Behat",
+		"FileZilla SFTP Import",
+		"Package Control",
+		"PHP Getters and Setters",
+		"SFTP",
+		"SyncedSideBar"
+	]
+}
